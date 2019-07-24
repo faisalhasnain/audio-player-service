@@ -4,7 +4,7 @@
   "description": "Backend service as REST API for audio player app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "env-cmd node index.js"
   },
   "keywords": [],
   "author": "Faisal Hasnain <faisalhasanin90@gmail.com> (https://faisalhasnain.com)",

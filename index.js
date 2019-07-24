@@ -1,3 +1,4 @@
+'use strict';
 
 const express = require('express');
 
@@ -7,4 +8,4 @@ app.use(express.json());
 
 const { PORT } = process.env;
 
-app.listen(PORT, () => `Server listening on localhost:${PORT}`);
+app.listen(PORT, () => console.log(`Server listening on localhost:${PORT}`));
