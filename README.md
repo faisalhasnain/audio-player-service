@@ -14,3 +14,6 @@ Backend service for audio player app exposed as REST API
 3. Install all npm deps: `npm i`
 4. Start server: `npm start`
 5. HTTP server listening on: `localhost:5000` 🎉
+
+### Notes
+- Songs meta data is being stored in JSON file at the moment. Its not optimal to insert, update and delete individual song records in real world use cases. This will be replaced with proper database in future :)
