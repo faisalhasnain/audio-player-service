@@ -1,0 +1,22 @@
+{
+  "name": "audio-player-service",
+  "version": "1.0.0",
+  "description": "Backend service as REST API for audio player app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Faisal Hasnain <faisalhasanin90@gmail.com> (https://faisalhasnain.com)",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10.16.0",
+    "npm": ">=6.9.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "env-cmd": "^9.0.3"
+  }
+}
